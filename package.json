@@ -1,0 +1,19 @@
+{
+  "name": "3d-container-home-designer",
+  "version": "1.0.0",
+  "description": "A 3D home designer application using React and Three.js with 20ft shipping containers",
+  "scripts": {
+    "install:all": "npm install && cd client && npm install && cd ../server && npm install",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "cd client && npm start",
+    "server": "cd server && npm run dev",
+    "build": "cd client && npm run build",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": ["react", "threejs", "3d", "container", "home-designer"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
